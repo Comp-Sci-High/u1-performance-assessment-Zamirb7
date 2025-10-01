@@ -67,20 +67,27 @@ afterSchoolClubs.social[2].location="Balcony";
 // 4th Floor
 // Uncomment the code below to begin this task
 
-// let takeCareOfPet = function(snacks, pets) => {
-//     if (Snacks[2] === "hotdogs" && pets > 10) {
-//         return "Raccoon has been appeased"
-//     } else {
-//         return "The raccoon bit you and you died of rabies."
-    
-// }
+ const takeCareOfPet = (snacks, pets) => {
+     if (snacks[2] === "hotdogs" && pets > 10){
+         return "Raccoon has been appeased"
+     } else {
+         return "The raccoon bit you and you died of rabies."
+    }
 
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
 // 5th Floor
-
-
+function openDoor(message){
+    let arr = [];
+    arr.push();
+    arr.push();
+    arr.push();
+    arr.push();
+    arr.push();
+console.log("Open sesame!");
+}
+openDoor("Open up")
 
 
 
